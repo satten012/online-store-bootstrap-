@@ -1,0 +1,23 @@
+html, body{
+    height: 100%;
+}
+body{
+    min-width: 320px;
+font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}    
+
+.main{
+    /*     
+    flex-grow: как много свободного пространства ;
+    flex-shrink:  определяет фактор сжатия ;
+    flex-basis: базовый размер по основной оси  ; */
+    flex: 1 1 auto; 
+
+
+}
