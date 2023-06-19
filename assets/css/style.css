@@ -18,6 +18,6 @@ font-family: 'Roboto', sans-serif;
     flex-shrink:  определяет фактор сжатия ;
     flex-basis: базовый размер по основной оси  ; */
     flex: 1 1 auto; 
-
+    display: flex;
 
 }
